@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="gallery">
+	<h1>DUSHY DASHY</h1>
+		<div class="thumbnails">
+			<img src="images/001.jpg" data-caption="Good morning everyone">
+			<img src="images/002.jpg" data-caption="A cute puppy">
+			<img src="images/003.jpg" data-caption="Its winter">
+			<img src="images/004.jpg" data-caption="Hungry cat">
+			<img src="images/005.jpg" data-caption="Welcome to Chicago">
+			<img src="images/006.jpg" data-caption="This flower is beautiful">
+			<img src="images/007.jpg" data-caption="Backstrock swwimming">
+			<img src="images/008.jpg" data-caption="Salads are very nutrious">
+		</div>
+		<h2>Welcome</h2>
+		<div class="viewer">
+
+		 
+		</div>
+	</div> 
+<script src="jquery.js"></script>
+<script src="app.js"></script>
+
+<script>
+	// $(document).ready(function(){
+	// 	console.log('jquery is working');
+	// })
+	// console.log($('body'));
+	
+	// $(document).ready(function(){
+	// 	$(this).hide(1000);
+	// })
+	$('.viewer').click(function(){
+		$('.thumbnails').toggle(1000);
+	})
+</script>
+
+</body>
+</html>
